@@ -1,0 +1,81 @@
+body{
+
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)) ,url("https://cdn.pixabay.com/photo/2020/01/11/15/16/wood-4757821_960_720.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    background: white;
+    box-shadow: 0px 0px 20px 0px black;
+    width: 500px;
+    height: 700px;
+    border-radius: 10px;
+}
+.title {
+    background-image: url("https://picsum.photos/500/400/?random=1");
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px 10px 0px 0px;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    line-height: 2rem;
+}
+a{
+    margin: 6px;
+    font-size: 0.6rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    font-weight: 300;
+    text-shadow: 0px 0px 10px black;
+}
+a:hover{
+    text-decoration: none;
+    color: #d8d8d8;
+}
+.month {
+    font-size: 2rem;
+    /* letter-spacing: 0.5rem; */
+    color: white;
+    font-weight: 600;
+    text-shadow:0px 0px 10px black
+}
+.year {
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin:  0 auto;
+    font-weight: 600;
+}
+table {
+    border-top: 2px solid #676767;
+    width: 350px;
+    margin: 20px auto;
+}
+td {
+    border-bottom: 1px solid #dadada;
+    text-align: center;
+    font-size: 1em;
+    line-height: 2rem;
+}
+td:hover{
+    background: #b8b8b8;
+}
+.week{
+    font-weight: 500;
+}
+.holiday{
+    color:rgb(180, 180, 180);
+}
+.today{
+    color: #e81919;
+}
