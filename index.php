@@ -50,12 +50,14 @@
     ?>
 
     <div class="container">
-        <div class="title">
-            <div class="year"><?php echo $thisYear; ?></div>
-            <div class="link">
-                <?php echo "<a href='index.php?thisYear={$preYear}&thisMonth={$preMonth}'>" ?><span class="material-icons">navigate_before</span></a>
-                <div class="month"><?php echo date('F', strtotime("{$thisYear}-{$thisMonth}")); ?></div>
-                <?php echo "<a href='index.php?thisYear={$nextYear}&thisMonth={$nextMonth}'>" ?><span class="material-icons">navigate_next</span></a>
+        <div class="title-wrapper">
+            <div class="title">
+                <div class="year"><?php echo $thisYear; ?></div>
+                <div class="link">
+                    <?php echo "<a href='index.php?thisYear={$preYear}&thisMonth={$preMonth}'>" ?><span class="material-icons">navigate_before</span></a>
+                    <div class="month"><?php echo date('F', strtotime("{$thisYear}-{$thisMonth}")); ?></div>
+                    <?php echo "<a href='index.php?thisYear={$nextYear}&thisMonth={$nextMonth}'>" ?><span class="material-icons">navigate_next</span></a>
+                </div>
             </div>
         </div>
 
